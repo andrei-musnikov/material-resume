@@ -1,0 +1,322 @@
+/*********** BUTTONS **********/
+
+#contact-btn {
+  background-color: #eee;
+  color: #90ee90;
+}
+
+.menu-btn {
+  background-color: lightgreen;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 57px;
+  height: 57px;
+}
+
+#download-btn {
+  background-color: #90ee90;
+}
+
+/*********** XXXXXX **********/
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#color {
+  background-color: lightgreen;
+}
+
+.service-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.circle-1,
+.title {
+  height: 62px;
+  width: 62px;
+  position: absolute;
+  background: lightgreen;
+  color: #fff;
+  text-align: center;
+  line-height: 72px;
+  border-radius: 62px;
+  z-index: 2;
+  left: 50%;
+  box-shadow: 0px 5px 5px 1px lightgray;
+}
+
+.title {
+  top: -2rem;
+}
+
+.circle-container {
+  right: 31px;
+  position: relative;
+}
+
+.circle-container p {
+  margin-bottom: 100px;
+}
+.circle-2 {
+  right: 31px;
+  position: relative;
+}
+
+.card-1 td {
+  border-bottom: thin dotted lightgreen;
+}
+
+.li-title {
+  background: lightgreen;
+  color: #fff;
+}
+
+.card-1,
+.card-2 {
+  width: 50%;
+}
+
+.align-right {
+  margin-right: 30px;
+}
+
+.align-left {
+  margin-left: 30px;
+}
+
+.vl {
+  margin: 30px 0 0 0;
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+.vl::before {
+  content: '';
+  margin: 0 0 0 -2px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 3px;
+  height: 100%;
+  background: lightgreen;
+}
+
+.year,
+.years-check {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.check {
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  left: 50%;
+  background: lightgreen;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 62px;
+  z-index: 2;
+}
+
+.years-check {
+  right: 11px;
+  padding-top: 13px;
+}
+
+/* TO REDO  */
+.check-1,
+.check-2,
+.check-3,
+.check-4,
+.check-5 {
+  top: -27px;
+  position: relative;
+}
+
+.check-1 {
+  left: 20%;
+}
+
+.check-2 {
+  right: 20%;
+}
+
+.check-3 {
+  right: 0;
+}
+
+.check-4 {
+  right: 10%;
+}
+
+.check-5 {
+  left: 10%;
+}
+
+.year p {
+  position: absolute;
+  width: 75px;
+  height: 26px;
+  left: 50%;
+  color: #fff;
+  background: lightgreen;
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 5px 5px;
+}
+
+.year-left {
+  right: -35px;
+}
+.year-right {
+  right: 115px;
+}
+
+.header {
+  /* background: url(../img/img1.jpg); */
+  background-color: #90ee90;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  width: cover;
+  height: 300px;
+}
+
+.responsive-img {
+  width: 10rem;
+  position: relative;
+  z-index: 1;
+  margin-top: -5rem;
+}
+
+.page-footer {
+  background: #eee;
+}
+
+.body {
+  background-color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+strong {
+  font-weight: 600;
+  font-style: bold;
+  /* padding: 20px 0; */
+}
+
+h4,
+h5 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.side-nav li {
+  padding: 0;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6,
+.row-7,
+.row-8 {
+  opacity: 0;
+}
+
+.row-2,
+.row-7 {
+  margin-top: 30px;
+}
+
+.position {
+  background-color: #eee;
+  border-radius: 2px;
+  padding: 3px;
+  padding-left: 0;
+  margin: 0, 10px;
+  font-size: 0.8em;
+}
+
+.home-icons a {
+  margin: 10px;
+}
+
+.menu-icon {
+  position: absolute;
+  color: white;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* MEDIA QUERIES  */
+
+@media only screen and (max-width: 1290px) {
+  #download-btn,
+  #contact-btn {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-about {
+    display: block;
+    margin: 20px;
+  }
+
+  .card-1,
+  .card-2 {
+    width: 100%;
+  }
+
+  .circle-1 {
+    left: 5%;
+  }
+
+  .vl::before {
+    left: 5%;
+  }
+
+  .year p {
+    left: 0;
+  }
+  .year-left,
+  .year-right {
+    right: 10px;
+  }
+  .align-left,
+  .align-right {
+    margin-left: 0;
+    margin-right: 0;
+    margin-left: 50px;
+  }
+}
