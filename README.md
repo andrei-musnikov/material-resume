@@ -1,3 +1,3 @@
 #My Resume
 
-Reseume Created with Materialize CSS
+Resume Created with Materialize CSS
