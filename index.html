@@ -71,25 +71,30 @@
         <i class="material-icons menu-icon">menu</i>
       </div>
     </div>
+    
     <div class="logo center">
       <img class="responsive-img circle" src="img/face.jpg">
       <h4>Andrei Musnikov</h4>
       <p>Front-end Developer & QA Engineer</p>
       <div class="home-icons ">
-        <a class="btn-floating btn-small waves-effect waves-light z-depth-3">
-          <i class="fab fa-whatsapp"></i>
+        <a class="btn-floating btn-small waves-effect waves-light z-depth-3" href="https://www.linkedin.com/in/andrei-musnikov/"
+          target="_blank">
+          <i class="fab fa-linkedin-in"></i>
         </a>
-        <a class="btn-floating btn-small waves-effect waves-light z-depth-3">
-          <i class="fab fa-skype"></i>
+
+        <a class="btn-floating btn-small waves-effect waves-light z-depth-3" href="https://codepen.io/boxca/" target="_blank">
+          <i class="fab fa-codepen"></i>
         </a>
-        <a class="btn-floating btn-small waves-effect waves-light z-depth-3">
-          <i class="fab sm fa-github"></i>
+        <a class="btn-floating btn waves-effect waves-light z-depth-3" href="https://github.com/andrei-musnikov" target="_blank">
+          <i class="fab fa-github"></i>
         </a>
-        <a class="btn-floating btn-small waves-effect waves-light z-depth-3">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a class="btn-floating btn-small waves-effect waves-light z-depth-3">
+
+        <a class="btn-floating btn-small waves-effect waves-light z-depth-3" href="https://www.facebook.com/andy.myskin" target="_blank">
           <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn-floating btn-small waves-effect waves-light z-depth-3" href="https://www.flickr.com/photos/147487515@N06/"
+          target="_blank">
+          <i class="fab fa-flickr"></i>
         </a>
       </div>
     </div>
@@ -510,52 +515,6 @@
     </div>
   </section>
 
-  <!-- PORTFOLIO SECTION -->
-
-  <section>
-    <h4>Portfolio</h4>
-    <div class="row">
-      <div class="col m8 s12 offset-m2">
-        <div class="carousel carousel-slider center">
-          <div class="carousel-fixed-item center">
-            <!-- <a class="btn waves-effect white grey-text darken-text-2">Visit Site</a> -->
-
-          </div>
-
-
-
-          <div class="carousel-item red white-text" href="#one!">
-
-            <h2>First Panel</h2>
-            <p class="white-text">This is your first panel</p>
-            <img src="img/motorspa.jpg" alt="">
-          </div>
-
-          <div class="carousel-item amber white-text" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, suscipit.</p>
-            <!-- <img src="img/img2.jpg" alt="" href="http://google.com"> -->
-            <a href="http://www.google.com">
-              <img src="img/img2.jpg" alt="">
-            </a>
-          </div>
-
-          <div class="carousel-item green white-text" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
-            <img src="img/img3.jpg" alt="">
-          </div>
-
-          <div class="carousel-item blue white-text" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
-            <img src="img/img1.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- STATEMENT SECTION -->
 
   <section id="statement" class="section scrollspy container experience ">
@@ -677,6 +636,7 @@
         draggable: true,
         onOpen: function () { console.log('Menu Open') },
         onClose: function () { console.log('Menu Close') }
+        var collapsibleElem = document.querySelector('.collapsible');
       });
 
       const position = [36.14785524752169, -5.353773120610481];
